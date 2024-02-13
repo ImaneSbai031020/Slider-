@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Code</title>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- link file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio src="motrat-mustafa-nusja-gezuar-2021-(mp3convert.org).mp3" controls></audio>
+    <h1>Evlen de böyle duğün Yapalım</h1>
+
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="photo2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="dbca7c8e4bc203fe779475d92fd12e17.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo5.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo6.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo7.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="photo4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="dbca7c8e4bc203fe779475d92fd12e17.jpg" alt="">
+      </div>
+
+      <!-- 15 div -->
+    
+    </div>
+  </div>
+
+
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 15,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
+</body>
+</html>
